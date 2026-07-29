@@ -21,7 +21,7 @@
       "name": "Background opacity",
       "description": "Change the transparency of the popup background",
       "type": "int",
-      "default": 180,
+      "default": 185,
       "min": 0,
       "max": 255
     },
