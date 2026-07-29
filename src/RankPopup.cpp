@@ -89,15 +89,7 @@ void RankPopup::updateColor() {
 }
 
 bool RankPopup::canShow() {
-    auto scene = CCDirector::get()->getRunningScene();
-    if (!scene)
-        return false;
-    for (auto child : CCArrayExt<CCNode*>(scene->getChildren())) {
-        if (typeinfo_cast<PlayLayer*>(child))
-            return false;
-        if (typeinfo_cast<LevelEditorLayer*>(child))
-            return false;
-    }
+    if (!CCScene::get() || GJBaseGameLayer::get()) return false;
     return true;
 }
 
