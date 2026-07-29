@@ -49,8 +49,9 @@ void RankRefreshScheduler::update(float dt) {
     log::info("Background rank refresh");
 
     auto accountID = GJAccountManager::sharedState()->m_accountID;
-    if (accountID == 0)
+    if (accountID == 0) {
         log::warn("Background rank refresh: User not logged in.");
         return;
+    }
     RankManager::get().requestRankUpdate();
 }
