@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56D205D9-D146-35AE-A03B-22DDA079554D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>DynamicGlobalRank</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DynamicGlobalRank.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sunspice.dynamic-rank</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DynamicGlobalRank.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sunspice.dynamic-rank</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">DynamicGlobalRank.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sunspice.dynamic-rank</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">DynamicGlobalRank.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sunspice.dynamic-rank</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/bindings/bindings" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/bindings-src/bindings/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/fmt-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/result-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/nontype_functional-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-src/include" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/Debug//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GEODE_MOD_ID="sunspice.dynamic-rank";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING="2.2081";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR="Debug";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GEODE_MOD_ID=\"sunspice.dynamic-rank\";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING=\"2.2081\";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR=\"Debug\";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libcocos2d.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libExtensions.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\glew32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\fmod.lib;opengl32.lib;delayimp.lib;ws2_32.lib;bindings\Debug\GeodeBindings.lib;_deps\arc-build\Debug\arc.lib;_deps\asp2-build\Debug\asp.lib;_deps\fmt-build\Debug\fmtd.lib;C:\Users\Spice\Documents\Geode\bin\5.8.2\Geode.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Spice/Documents/Geode/loader/include/link;C:/Users/Spice/Documents/Geode/loader/include/link/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/Debug/sunspice.dynamic-rank.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/Debug/sunspice.dynamic-rank.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/bindings/bindings" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/bindings-src/bindings/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/fmt-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/result-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/nontype_functional-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-src/include" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/Release//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GEODE_MOD_ID="sunspice.dynamic-rank";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING="2.2081";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR="Release";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GEODE_MOD_ID=\"sunspice.dynamic-rank\";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING=\"2.2081\";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR=\"Release\";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libcocos2d.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libExtensions.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\glew32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\fmod.lib;opengl32.lib;delayimp.lib;ws2_32.lib;bindings\Release\GeodeBindings.lib;_deps\arc-build\Release\arc.lib;_deps\asp2-build\Release\asp.lib;_deps\fmt-build\Release\fmt.lib;C:\Users\Spice\Documents\Geode\bin\5.8.2\Geode.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Spice/Documents/Geode/loader/include/link;C:/Users/Spice/Documents/Geode/loader/include/link/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/Release/sunspice.dynamic-rank.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/Release/sunspice.dynamic-rank.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/bindings/bindings" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/bindings-src/bindings/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/fmt-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/result-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/nontype_functional-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-src/include" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/MinSizeRel//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GEODE_MOD_ID="sunspice.dynamic-rank";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING="2.2081";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR="MinSizeRel";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GEODE_MOD_ID=\"sunspice.dynamic-rank\";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING=\"2.2081\";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR=\"MinSizeRel\";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libcocos2d.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libExtensions.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\glew32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\fmod.lib;opengl32.lib;delayimp.lib;ws2_32.lib;bindings\MinSizeRel\GeodeBindings.lib;_deps\arc-build\MinSizeRel\arc.lib;_deps\asp2-build\MinSizeRel\asp.lib;_deps\fmt-build\MinSizeRel\fmt.lib;C:\Users\Spice\Documents\Geode\bin\5.8.2\Geode.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Spice/Documents/Geode/loader/include/link;C:/Users/Spice/Documents/Geode/loader/include/link/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/MinSizeRel/sunspice.dynamic-rank.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/MinSizeRel/sunspice.dynamic-rank.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/bindings/bindings" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/bindings-src/bindings/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/fmt-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/result-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/nontype_functional-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-src/include" /external:I "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-src/include" /bigobj /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/RelWithDebInfo//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GEODE_MOD_ID="sunspice.dynamic-rank";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING="2.2081";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR="RelWithDebInfo";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GEODE_MOD_ID=\"sunspice.dynamic-rank\";PROJECT_NAME=DynamicGlobalRank;NOMINMAX;GEODE_GD_VERSION=2.2081;GEODE_COMP_GD_VERSION=22081;GEODE_GD_VERSION_STRING=\"2.2081\";_HAS_ITERATOR_DEBUGGING=0;MAT_JSON_DYNAMIC=1;ARC_FEATURE_TIME=1;CMAKE_INTDIR=\"RelWithDebInfo\";DynamicGlobalRank_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\geode-deps;C:\Users\Spice\Documents\Geode\loader\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\include;C:\Users\Spice\Documents\Geode\loader\include\Geode\cocos\extensions;C:\Users\Spice\Documents\Geode\loader\include\Geode\fmod;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\bindings;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\bindings-src\bindings\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\tuliphook-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\json-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-src\include;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libcocos2d.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\libExtensions.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\glew32.lib;C:\Users\Spice\Documents\Geode\loader\include\link\win64\fmod.lib;opengl32.lib;delayimp.lib;ws2_32.lib;bindings\RelWithDebInfo\GeodeBindings.lib;_deps\arc-build\RelWithDebInfo\arc.lib;_deps\asp2-build\RelWithDebInfo\asp.lib;_deps\fmt-build\RelWithDebInfo\fmt.lib;C:\Users\Spice\Documents\Geode\bin\5.8.2\Geode.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Spice/Documents/Geode/loader/include/link;C:/Users/Spice/Documents/Geode/loader/include/link/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/RelWithDebInfo/sunspice.dynamic-rank.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/RelWithDebInfo/sunspice.dynamic-rank.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank" "-BC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build" --check-stamp-file "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeSystem.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\cmake.verify_globs;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\mod.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank" "-BC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build" --check-stamp-file "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeSystem.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\cmake.verify_globs;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\mod.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank" "-BC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build" --check-stamp-file "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeSystem.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\cmake.verify_globs;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\mod.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank" "-BC:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build" --check-stamp-file "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\4.3.3\CMakeSystem.cmake;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\cmake.verify_globs;C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\mod.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\DynamicGlobalRank.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/Debug//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/Release//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/MinSizeRel//cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/DynamicGlobalRank.dir/RelWithDebInfo//cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\src\main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\src\RankManager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\src\RankPopup.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\src\RankRefreshScheduler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\DynamicGlobalRank.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\DynamicGlobalRank.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\DynamicGlobalRank.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\CMakeFiles\DynamicGlobalRank.dir\RelWithDebInfo\cmake_pch.hxx" />
+    <ClCompile Include="C:\Users\Spice\Documents\Geode\entry.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/DynamicGlobalRank.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include\std23\function_ref.h" />
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include\std23\function.h" />
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include\std23\move_only_function.h" />
+    <ClInclude Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-src\include\std23\__functional_base.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\ZERO_CHECK.vcxproj">
+      <Project>{E0DAA972-BD67-35F1-9C15-87296AD665BB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\bindings\GeodeBindings.vcxproj">
+      <Project>{EE41492B-FDA7-3736-BDB3-6C723D29548E}</Project>
+      <Name>GeodeBindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\arc-build\arc.vcxproj">
+      <Project>{40B99671-6AD4-31E2-9D4D-2289ED0FD32F}</Project>
+      <Name>arc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-build\asp.vcxproj">
+      <Project>{08CF0F44-FC4D-3831-8387-1023E7531EE0}</Project>
+      <Name>asp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-build\fmt.vcxproj">
+      <Project>{328BFBB5-77B9-3754-948F-4B9D4F74728A}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

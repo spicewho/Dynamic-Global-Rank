@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/tuliphook-populate"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/cc5a47055e37a7d8a54aa6123f6b1b49/tuliphook-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/5650e4629fb0a55dd06f306f25f3ec22/tuliphook-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-subbuild/CMakeFiles/bf84c9eb7c43999a11841c8c75bbbb77/tuliphook-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tuliphook-populate"
+		],
+		"name" : "tuliphook-populate"
+	}
+}

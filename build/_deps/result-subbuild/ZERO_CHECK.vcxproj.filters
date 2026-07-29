@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\result-subbuild\CMakeFiles\1965d837422c44384549d6ae22e4b0e7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2FC3C312-2052-3168-B6B9-42F0C63F7D76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

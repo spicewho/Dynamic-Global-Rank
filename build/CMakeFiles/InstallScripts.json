@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/geode/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/result-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/nontype_functional-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/fmt-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/tuliphook-build/cmake_install.cmake",
+		"C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/bindings/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

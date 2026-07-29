@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\98ef6d68ab363a499bbd205fdf85369e\fmt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\6e996e9f26fdb6c943cbce76357ebc83\fmt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\f7a85d82745bf2e65b23d7d5049fc5a3\fmt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{83E8D49A-C19B-36B3-BA08-BCD14681D112}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

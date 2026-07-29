@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/98a990777da77de0e5e65bb47cd6c615/json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/06506c05614a62487c416114995b6168/json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/json-subbuild/CMakeFiles/d89ad1e007dcbe438ec5866d125a0aec/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

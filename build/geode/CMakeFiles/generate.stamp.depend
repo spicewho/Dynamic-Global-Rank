@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Users/Spice/Documents/Geode/CMakeLists.txt
+C:/Users/Spice/Documents/Geode/cmake/CPM.cmake
+C:/Users/Spice/Documents/Geode/cmake/GeodeFile.cmake
+C:/Users/Spice/Documents/Geode/cmake/Platform.cmake
+C:/Users/Spice/Documents/Geode/cmake/PlatformDetect.cmake
+C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/CMakeFiles/cmake.verify_globs
+C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/cmake/CPM_0.42.1.cmake

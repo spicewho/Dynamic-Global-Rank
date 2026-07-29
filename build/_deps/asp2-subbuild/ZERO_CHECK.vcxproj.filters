@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\asp2-subbuild\CMakeFiles\7b9c4a04b83abc69565c23c970400003\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{362D8967-88C3-37EF-942A-AE6C655A374C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

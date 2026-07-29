@@ -1,0 +1,53 @@
+{
+  "geode": "5.8.2",
+  "version": "v1.0.0",
+  "gd": {
+    "win": "2.2081"
+  },
+  "id": "sunspice.dynamic-rank",
+  "name": "Dynamic Global Rank",
+  "developers": [ "Sunspice" ],
+  "description": "Displays an animated popup whenever the mod sees your global leaderboard rank update",
+  "tags": [ "interface", "utility" ],
+  "settings": {
+    "popup-background-color": {
+      "name": "Background color",
+      "description": "Change the background color of the rank popup",
+      "type": "color",
+      "default": [ 0, 0, 0 ]
+    },
+
+    "popup-background-opacity": {
+      "name": "Background opacity",
+      "description": "Change the transparency of the popup background",
+      "type": "int",
+      "default": 180,
+      "min": 0,
+      "max": 255
+    },
+
+    "show-after-level-complete": {
+      "name": "Show after level complete",
+      "description": "Show your rank update after completing a level and exiting",
+      "type": "bool",
+      "default": true
+    },
+
+    "background-refresh": {
+      "type": "bool",
+      "name": "Background rank refresh",
+      "description": "Enable to let the mod fetch and update your rank periodically, this can get annoying if you constantly move up or down 1 place!",
+      "default": false
+    },
+
+    "refresh-seconds": {
+      "name": "Background refresh interval",
+      "description": "How often to check your global rank in seconds. Lower values update faster but send more requests",
+      "enable-if": "background-refresh",
+      "type": "int",
+      "default": 240,
+      "min": 120,
+      "max": 600
+    }
+  }
+}

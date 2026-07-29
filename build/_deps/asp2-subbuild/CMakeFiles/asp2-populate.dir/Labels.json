@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/asp2-populate"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/7b9c4a04b83abc69565c23c970400003/asp2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/681dbb5ce4a5a3f36f45f98052646642/asp2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/asp2-subbuild/CMakeFiles/f4f9fc167b441092723cbf74fc6f5b5d/asp2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asp2-populate"
+		],
+		"name" : "asp2-populate"
+	}
+}
