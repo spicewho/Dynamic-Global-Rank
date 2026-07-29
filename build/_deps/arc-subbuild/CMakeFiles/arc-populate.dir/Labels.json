@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/arc-populate"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/d7c4a356a03d1a8ac0a2031f4fab1d0f/arc-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/570865f651bfd4498115e3503e329834/arc-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Spice/Documents/GeodeMods/Dynamic Global Rank/build/_deps/arc-subbuild/CMakeFiles/184ce169bc6b51b32ebf8706e2fd85a4/arc-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"arc-populate"
+		],
+		"name" : "arc-populate"
+	}
+}

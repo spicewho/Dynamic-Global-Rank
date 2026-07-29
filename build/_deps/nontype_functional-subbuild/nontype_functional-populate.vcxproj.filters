@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\02401127b1625829a7106b2df2cdacc8\nontype_functional-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\eb587fb07d69d9ac16298202f6d0dac9\nontype_functional-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\d6c799c40906260eefea4cab27bc3912\nontype_functional-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Spice\Documents\GeodeMods\Dynamic Global Rank\build\_deps\nontype_functional-subbuild\CMakeFiles\nontype_functional-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E14BD8C-6CE0-3CA9-A889-C3CA825DFCF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
