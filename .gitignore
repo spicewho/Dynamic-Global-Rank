@@ -2,6 +2,8 @@
 build/
 out/
 bin/
+build-android64/
+.idea/
 
 # Visual Studio
 .vs/
