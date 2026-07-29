@@ -8,7 +8,7 @@
   "name": "Dynamic Global Rank",
   "developers": [ "Sunspice" ],
   "description": "Displays an animated popup whenever the mod sees your global leaderboard rank update",
-  "tags": [ "interface", "utility" ],
+  "tags": [ "enhancement", "online" ],
   "settings": {
     "popup-background-color": {
       "name": "Background color",
