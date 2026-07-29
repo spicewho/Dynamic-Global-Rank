@@ -1,5 +1,6 @@
 #include "RankRefreshScheduler.hpp"
 #include "RankManager.hpp"
+#include <algorithm>
 
 using namespace geode::prelude;
 
@@ -23,7 +24,8 @@ RankRefreshScheduler* RankRefreshScheduler::get() {
 bool RankRefreshScheduler::init() {
     if (!CCNode::init())
         return false;
-    m_interval = static_cast<float>(Mod::get()->getSettingValue<int>("refresh-seconds"));
+    m_interval = static_cast<float>(std::clamp(Mod::get()->getSettingValue<int>("refresh-seconds"), 120, 600)
+        );
     this->scheduleUpdate();
     return true;
 }
