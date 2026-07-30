@@ -12,6 +12,10 @@
   "developers": [ "Sunspice" ],
   "description": "Displays an animated popup whenever the mod sees your global leaderboard rank update",
   "tags": [ "enhancement", "online" ],
+  "links": {
+    "source": "https://github.com/spicewho/Dynamic-Global-Rank",
+    "community": "https://discord.gg/Yx2fv4atnw"
+  },
   "settings": {
     "popup-background-color": {
       "name": "Background color",
