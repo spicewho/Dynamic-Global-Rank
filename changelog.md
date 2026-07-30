@@ -1,3 +1,9 @@
+## v1.0.4
+- Zoomed logo in a bit more (last logo update)
+- Added formatting to mod description
+- Added repo link 
+- Added Discord link (submit bugs here!)
+
 ## v1.0.3
 - Fixed background refresh not grabbing new data making the popup not appear
 - Added support for all platforms (Mac, Android, IOS)
