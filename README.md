@@ -5,6 +5,7 @@ Also supports background refreshing to see the popup outside of completing a lev
 ## Usage
 To enable background refresh, enable it in the mod settings.
 - The fastest you can set this is 120 seconds (two minutes) and a max of 600 seconds (10 minutes)
+- This will activate the popup even when you go up or down 1 rank, be aware!
 - There may be some cache issues, if your rank goes up or down by a singular position when you know you went up a ton, please create an issue on the mod's Github repository
 
 ## Credits
